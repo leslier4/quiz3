@@ -139,6 +139,9 @@ nav.menu ul li a:hover:after {
         display: block;
         margin: 0;
     }
+    #toggle:checked + .nav{
+        display: block !important;
+    }
     .fa-bars {
         font-size: 26px;
         line-height: 70px;
